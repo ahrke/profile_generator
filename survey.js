@@ -62,7 +62,7 @@ const createParagraph = () => {
   ` ${getAnswerFromKey("interests")}, devouring ${getAnswerFromKey("food")} for ${getAnswerFromKey("meal")},` +
   ` prefers ${getAnswerFromKey("sport")} over any other sport, and is amazing at ${getAnswerFromKey("superpower")}.`
   process.stdout.write(paraOut + `\n`);
-  process.exit();
+  rl.close();
 }
 
 getAnswer(questions, createParagraph);
