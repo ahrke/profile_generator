@@ -1,3 +1,5 @@
+// pair programming with @jimmyzmli
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
